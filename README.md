@@ -67,4 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
-# celebrity_app
+# API Key Instructions
+
+In my-app create a file called .env This is where you will store all of your API keys to be used for the project. Currently, you will need one for [https://newsapi.org/](https://newsapi.org/)
+ and [https://developers.google.com/youtube/v3] (https://developers.google.com/youtube/v3). You will need to name the news api `REACT_APP_NEWS_API` and the youtube api `REACT_APP_YOUTUBE_API` inside your .env file. Resart the server for my-app and rerun with these changes. The app should work accordingly. Be sure to .gitignore this file when publishing changes to your branch, you don't want others using your API keys. 
