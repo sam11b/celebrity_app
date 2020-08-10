@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.page-setup {
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.title {
+  padding-bottom: 25px;
+  font-size: 200%;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.results{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 150%;
+}
+
+.b-name {
+  font-weight: bold;
+  display: inline;
+}
+
+/* .group {
+
+} */
+
+.group-title {
+  font-size: 125%;
+}
+
+.group-1 {
+  margin-bottom: 10px;
+}
+
+.group-1-content {
+  text-indent: 5%;
+}
+
+.pos {
+  color: #008b00;
+  display: inline;
+}
+
+.neg {
+  color: #cc0000;
+  display: inline;
+}
