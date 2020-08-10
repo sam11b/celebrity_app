@@ -70,4 +70,35 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # API Key Instructions
 
 In my-app create a file called .env This is where you will store all of your API keys to be used for the project. Currently, you will need one for [https://newsapi.org/](https://newsapi.org/)
- and [https://developers.google.com/youtube/v3] (https://developers.google.com/youtube/v3). You will need to name the news api `REACT_APP_NEWS_API` and the youtube api `REACT_APP_YOUTUBE_API` inside your .env file. Resart the server for my-app and rerun with these changes. The app should work accordingly. Be sure to .gitignore this file when publishing changes to your branch, you don't want others using your API keys. 
+ and [https://developers.google.com/youtube/v3] (https://developers.google.com/youtube/v3). You will need to name the news api `REACT_APP_NEWS_API` and the youtube api `REACT_APP_YOUTUBE_API` inside your .env file. Resart the server for my-app and rerun with these changes. The app should work accordingly. Be sure to .gitignore this file when publishing changes to your branch, you don't want others using your API keys.
+
+# Installations
+
+
+## Install yarn
+
+Go to [https://classic.yarnpkg.com/en/docs/install/#mac-stable](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+
+If you are on MacOS or another Unix machine, you can type in the command:
+
+   curl -o- -L https://yarnpkg.com/install.sh | bash
+
+
+## Install npm
+
+npm is distrubted with Node.js- which means that when you download Node.js, you automatically get npm installed on your computer
+
+Go to [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+
+Click "Download Node.js and npm"
+
+Select the download that is "Recommended For Most Users"
+
+
+## Install react-scripts
+
+Go to [https://www.npmjs.com/package/react-scripts](https://www.npmjs.com/package/react-scripts)
+
+You can type in the following command:
+
+   npm i react-scripts
